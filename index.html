@@ -8,78 +8,156 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"rel="stylesheet"/>
 </head>
 <body>
-    <nav>
-        <div class="navbar">
-            <div class="logo">
-                <a href="#">Joy</a>
-                <label for="check" class="checkbox">
-                    <i class="ri-menu-fill"></i>
-                </label>
-                <input type="checkbox" name="check" id="check">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#" class="button">Log in</a></li>
-                </ul>
-            </div>
-        </div>
-      </nav>
-
-
-<section class="section">
-    <div class="section-container">
-            <div class="content">
-                <p class="subtitle">Hello!</p>
-                <h1 class="title">
-                    I am <span>Joy <br></span> Cyber Crime Expert
-                </h1>
-                <p class="description">
-                    Hello world! Welcome to the digital realm, Cybersecurity expert Jamess Joy guides individuals and 
-                    orgs through the digital landscape, protecting against cyber threats with precision and innovation.
-                    His portfolio showcases a relentless pursuit of cybersecurity, ensuring a safer future for all. Join 
-                    him on this exciting journey and let's secure the digital frontier together!
-                </p>
-                <div class="btn">
-                    <button class="hire-me">Hire Me</button>
+<!-- create Nav bar -->
+    <div id="index">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <a href="#">Joy</a>
+                    <label for="check" class="checkbox">
+                        <i class="ri-menu-fill"></i>
+                    </label>
+                    <input type="checkbox" name="check" id="check">
+                    <ul>
+                        <li><a href="index">Home</a></li>
+                        <li><a href="index2">About Me</a></li>
+                        <li><a href="projects">Project</a></li>
+                        <li><a href="contact">Contact</a></li>
+                        <li><a href="#" class="button">Log in</a></li>
+                    </ul>
                 </div>
-                <div class="icons">
+            </div>
+        </nav>
+
+<!-- Create Home page -->
+    <section class="section">
+        <div class="section-container">
+                <div class="content">
+                    <p class="subtitle">Hello!</p>
+                    <h1 class="title">
+                        I am <span>Joy <br></span> Cyber Crime Expert
+                    </h1>
+                    <p class="description">
+                        Hello world! Welcome to the digital realm, Cybersecurity expert Jamess Joy guides individuals and 
+                        orgs through the digital landscape, protecting against cyber threats with precision and innovation.
+                        His portfolio showcases a relentless pursuit of cybersecurity, ensuring a safer future for all. Join 
+                        him on this exciting journey and let's secure the digital frontier together!
+                        
+                    </p>
+                    <div class="btn">
+                        <button class="hire-me">Hire Me</button>
+                    </div>
+                    <div class="icons">
+                        <a href=""><i class="ri-facebook-fill"></i></a>
+                        <a href="#"><i class="ri-twitter-line"></i></a>
+                        <a href=""><i class="ri-instagram-line"></i></a>
+                        <a href=""><i class="ri-linkedin-line"></i></a>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="assets/profile.jpg" alt="profile">
+                </div>
+        </div>
+    </section>
+</div>
+
+
+<!-- Start to create About me page -->
+<section id="index2" class="aboutme">
+    <h2>About Me</h2>
+    <div class="profile">
+        <div class="img1">
+        <img src="assets/about-profile.jpg" alt="profile" class="profile1">
+        </div>
+        <div class="about">
+            <div class="name">
+                <p>James <span class="sp1">Joy</span></p>
+            </div>
+            <div class="description1">
+                <p>
+                    Meet Joy from Arasadikkulam, a web development enthusiast 
+                    and a burgeoning cyber expert. Currently engaged in honing
+                    web development skills, Joy also navigates the world of 
+                    cybersecurity with a passion. Juggling part-time freelancing,
+                    Joy embodies versatility and a commitment to continuous
+                    learning, making strides in the realms of web development
+                    and cybersecurity. <br> 
+                    <p class="p1">
+                        ....
+                    </p> 
+                </p>
+                <div class="icons1">
                     <a href=""><i class="ri-facebook-fill"></i></a>
                     <a href=""><i class="ri-twitter-line"></i></a>
                     <a href=""><i class="ri-instagram-line"></i></a>
                     <a href=""><i class="ri-linkedin-line"></i></a>
                 </div>
             </div>
-            <div class="image">
-                <img src="assets/profile.jpg" alt="profile">
-            </div>
+        </div>
     </div>
 </section>
-<!-- Start to create About me page -->
-<!-- <div id="about" class="aboutme">
-    <div class="about">
-        <h2>About Me</h2>
-        <div class="profile">
-            <img src="assets/about-profile.jpg" alt="profile">
+
+<!-- Create Projects page -->
+    <div id="projects" class="main-card-container">
+        <h2>Projects</h2>
+        <div class="card-container">
+            <article class="card-article">
+                <img src="assets/projects4.jpg" alt="projects" class="cimg2">
+                <div class="card-data">
+                   <span class="card-description">S, T, E and M</span>
+                   <h3 class="card-title">Cyber Security</h3>
+                   <a href="" class="card-button">Read More</a>
+                </div>
+           </article>
+
+           <article class="card-article">
+            <img src="assets/project1.jpeg" alt="projects" class="cimg1">
+            <div class="card-data">
+               <span class="card-description">The Key To Digital security</span>
+               <h3 class="card-title">Cryptography</h3>
+               <a href="" class="card-button">Read More</a>
             </div>
-        <div class="name">
-            <p>James <span>Joy</span></p>
+       </article>
+
+           <article class="card-article">
+                <img src="assets/projects3.jpg" alt="projects" class="cimg3">
+                <div class="card-data">
+                    <span class="card-description">Information security artifacts in the SDL</span>
+                    <h3 class="card-title">Information security</h3>
+                    <a href="" class="card-button">Read More</a>
+                </div>
+           </article>
         </div>
-        <div class="description1">
-            <p>
-                Meet Joy from Arasadikkulam, a web development enthusiast 
-                and a burgeoning cyber expert. Currently engaged in honing
-                web development skills, Joy also navigates the world of 
-                cybersecurity with a passion. Juggling part-time freelancing,
-                Joy embodies versatility and a commitment to continuous
-                learning, making strides in the realms of web development
-                and cybersecurity.</p>
+        <div class="icons1">
+            <a href=""><i class="ri-facebook-fill"></i></a>
+            <a href=""><i class="ri-twitter-line"></i></a>
+            <a href=""><i class="ri-instagram-line"></i></a>
+            <a href=""><i class="ri-linkedin-line"></i></a>
         </div>
     </div>
-</div> -->
 
-
+<!-- Footer -->
+    <div class="f-body">
+        <footer>
+            <ol class="soc-icon">
+                <li><a href="#"><ion-icon class="in" name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#"><ion-icon class="in" name="logo-twitter"></ion-icon></a></li>
+                <li><a href="#"><ion-icon class="in" name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#"><ion-icon class="in" name="logo-linkedin"></ion-icon></a></li>
+            </ol>
+            <ol class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ol>
+            <p class="copywrite">© 2023 James Joy - All Rights Reserved.</p>
+        </footer>
+    </div>
 </div>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
+
+
