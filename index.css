@@ -352,8 +352,8 @@ h2{
         grid-area: 1/1/2/2;
     }
     .image img{
-        height: 30rem;
-        width: 30rem;
+        height: 20rem;
+        width: 20rem;
     }
 
     .btn{
